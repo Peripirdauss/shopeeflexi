@@ -1,0 +1,39 @@
+{
+  "name": "shopee-flexi-calculator",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "prepare": "svelte-kit sync || true",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "test:unit": "vitest run",
+    "test": "npm run test:unit"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-auto": "^3.3.1",
+    "@sveltejs/kit": "^2.16.0",
+    "@sveltejs/vite-plugin-svelte": "^4.0.0",
+    "@types/better-sqlite3": "^9.6.0",
+    "@types/node": "^20.17.0",
+    "@types/papaparse": "^5.3.15",
+    "autoprefixer": "^10.4.20",
+    "clsx": "^2.1.1",
+    "lucide-svelte": "^0.475.0",
+    "postcss": "^8.4.49",
+    "svelte": "^5.0.0",
+    "svelte-check": "^4.0.0",
+    "tailwind-merge": "^2.6.0",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11",
+    "vitest": "^2.1.8"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "exceljs": "^4.4.0",
+    "papaparse": "^5.4.1"
+  }
+}
